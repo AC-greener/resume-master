@@ -1,0 +1,141 @@
+{
+    "personalInfo": {
+        "name": "王志强",
+        "title": "web前端工程师",
+        "avatar": "https://ac-greener.github.io/r-dribbble-build/zhu.jpg"
+    },
+    "contact": [
+        {
+            "value": "example@example.com",
+            "icon": "icon-email",
+            "type": "email"
+        },
+        {
+            "value": "182xxxx2562",
+            "icon": "icon-phone",
+            "type": "phone"
+        },
+        {
+            "value": "https://blog.csdn.net/AC_greener",
+            "icon": "icon-blog",
+            "type": "blog"
+        },
+        {
+            "value": "https://github.com/AC-greener",
+            "icon": "icon-github",
+            "type": "github"
+        }
+    ],
+    "skillDetailList": [
+        "熟练使用HTML5常用标签，能够编写语义化的HTML代码。",
+        "熟悉CSS3, 如动画、过渡、响应式等常用属性，熟悉弹性盒子布局。",
+        "熟悉JavaScript，如this、原型、Promise及ES6、ES7常用API。",
+        "熟悉Vue的技术栈，如生命周期、Vuex、VueRouter等。",
+        "熟悉React，JSX，熟悉Redux常用API。",
+        "了解NodeJS以及express常用的API。",
+        "了解Webpack、前端单元测试、持续集成。",
+        "了解HTTP、前端安全、前端性能优化。",
+        "有微信小程序和个人博客开发经验，熟悉git flow，能够熟练使用git管理代码。"
+    ],
+    "skills": [
+        {
+            "name": "JavaScript/HTML5/CSS3",
+            "mastery": 90
+        },
+        {
+            "name": "Vue/Vuex/Vue-router",
+            "mastery": 80
+        },
+        {
+            "name": "React/Redux",
+            "mastery": 60
+        },
+        {
+            "name": "Node.js",
+            "mastery": 50
+        },
+        {
+            "name": "ES6/Sass",
+            "mastery": 65
+        }
+    ],
+    "education": [
+        {
+            "startTime": "09/2016",
+            "endTime": "07/2020",
+            "institution": "陕西科技大学",
+            "degree": "本科",
+            "major": "网络工程"
+        }
+    ],
+    "workExperience": [
+        {
+            "startTime": "07/2019",
+            "endTime": "09/2019",
+            "company": "北京奇虎360",
+            "responsibilities": "使用ElementUI+qCahrts进行项目的组件开发，与产品经理讨论需求，与后端同学联调接口、对页面进行了部分重构、修复项目bug。",
+            "achievements": "了解到了持续集成，单元测试，意识到UI体验的重要性，代码维护的重要性。"
+        }
+    ],
+    "projects": [
+        {
+            "startTime": "01/2019",
+            "endTime": "03/2019",
+            "name": "React仿移动端Dribbble App",
+            "description": "使用React仿移动端Dribbble的WebApp，项目使用Axios请求json文件来模拟后端接口，实现了图片展示页面，登录页面，图片详情页面，并将项目部署在nginx服务器上。",
+            "techStack": [
+                "react",
+                "redux",
+                "react-router",
+                "redux-thunk",
+                "axios"
+            ],
+            "sourceCode": "https://github.com/AC-greener/react-dribbble",
+            "previewLink": "http://47.104.194.20:8081/"
+        },
+        {
+            "startTime": "04/2018",
+            "endTime": "05/2018",
+            "name": "微信小程序",
+            "description": "使用Canvas在陕西科技大学60周年校庆制作的一个生成校庆头像的小程序，用户可以在相册选择图片并结合相框来生成微信头像，使用人数近千人。",
+            "techStack": [
+                "Canvas",
+                "Flex"
+            ],
+            "sourceCode": "https://github.com/AC-greener/weChatApplet",
+            "previewLink": "https://ac-greener.github.io/weChatApplet/index.html"
+        },
+        {
+            "startTime": "09/2018",
+            "endTime": "11/2018",
+            "name": "个人自建博客",
+            "description": "博客采用前后端分离开发，前端页面使用Vue，用keyframes动画优化了用户体验，用iconfont制作图标，使用axios请求后台的接口，后台使用express框架，用MongoDB存储博客文章。完成了留言板，文章分页，文章评论，添加文章等功能。",
+            "techStack": [
+                "vue",
+                "vue-router",
+                "vuex",
+                "axios",
+                "es6",
+                "nodejs",
+                "express"
+            ],
+            "sourceCode": "https://github.com/AC-greener/myblog",
+            "previewLink": "https://github.com/AC-greener/myblog"
+        },
+        {
+            "startTime": "11/2018",
+            "endTime": "12/2018",
+            "name": "Canvas画板",
+            "description": "一个用Canvas做的画板，画板同时支持PC端和移动端事件。用户可以使用画笔在页面中绘画，并且可以选择画笔颜色、粗细，可以清空画板，完成绘画后可以保存成png图片到本地。",
+            "techStack": [
+                "JavaScript",
+                "Canvas"
+            ],
+            "sourceCode": "https://github.com/AC-greener/canvas-drawingboard",
+            "previewLink": "https://ac-greener.github.io/canvas-drawingboard/index.html"
+        }
+    ],
+    "aboutMe": {
+        "evaluation": "有较强的持续自学能力。喜欢新技术，热爱前端开发，热爱开源，参加过freecodecamp西安线下的前端交流大会。"
+    }
+}

@@ -39,6 +39,9 @@ export default function RootLayout({
         lexend.variable,
       )}
     >
+      <head>
+        <link rel="stylesheet" href="https://at.alicdn.com/t/font_908787_kekc8lrkg7e.css"></link>
+      </head>
       <body className="flex h-full flex-col">{children}</body>
     </html>
   )
