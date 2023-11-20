@@ -4,7 +4,7 @@ import './style.css'
 export default async function Tpl() {
     const file = await fs.readFile(process.cwd() + '/src/app/tpl.json', 'utf8');
     const data = JSON.parse(file);
-    console.log(data)
+    // console.log(data)
     return (
         <div>
         <div className="wrapper layout clearfix">
